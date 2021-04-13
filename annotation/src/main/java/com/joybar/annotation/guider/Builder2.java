@@ -12,7 +12,7 @@ public class Builder2 {
 
 	public static void main(String[] args) {
 		System.out.println("=============buildGuiderJavaFile=============");
-		ReferenceQueue
+//		ReferenceQueue
 	}
 
 

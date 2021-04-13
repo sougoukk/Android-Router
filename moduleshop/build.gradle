@@ -82,7 +82,7 @@ dependencies {
     api project(':librouter')
 }
 
-preBuild << {
+preBuild {
     String cmd = "sh inrouter/maker/route.sh " + project.getName()
     def cmdResult = cmd.execute().text.trim()
     println cmdResult
